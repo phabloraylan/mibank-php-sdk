@@ -58,7 +58,7 @@ try{
 
     $consulta = new \MiBank\Consulta($cliente);
     $documento = '123456789'; //CPF ou CNPJ sem mascára
-    $numero_conta = '82144207'; //conta miBank sem mascára
+    $numero_conta = '9876543'; //conta miBank sem mascára
     $resultado = $consulta->getValidaConta($documento,$numero_conta);
     print_r($resultado);//resultado em array
 
